@@ -36,6 +36,13 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
+        'assetManager' => [
+            'bundles' => [
+               'yii\bootstrap\BootstrapPluginAsset'=>[
+                  'js'=>[]
+               ]
+            ],
+        ]
         /*
         'urlManager' => [
             'enablePrettyUrl' => true,

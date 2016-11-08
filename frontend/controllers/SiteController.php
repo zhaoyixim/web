@@ -19,6 +19,7 @@ use frontend\models\ContactForm;
 class SiteController extends Controller
 {
    public $layout="top";
+
     /**
      * @inheritdoc
      */
@@ -73,6 +74,7 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
+
         return $this->render('index');
     }
 
