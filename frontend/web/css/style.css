@@ -1,4 +1,9 @@
 .b1{border: 1px #ff0000 solid}
+.b0{border:1px #000 solid;}
+/*common*/
+.color-white{color: white}
+.margin-top20{margin-top: 20px;}
+.dis-no{visibility:hidden}
 .navbar-color{background-color: rgba(0,0,0,0.5)}
 .navbar-color a {color: white}
 .navbar-color a:hover {color: rgba(0,0,0,0.5)}}
@@ -7,9 +12,12 @@
 .carousel-caption {/*rewrite css*/left:0;right:0;}
 
 
+/*owl-carousel*/
+.owl-carousel .item img.lazyOwl{padding: 9px;max-width: 100%; width: auto; height: auto;}
+.owl-carousel .owl-label{position: absolute;bottom: 0px;display: none;height: 30px;width:100%; padding: 9px;overflow: hidden;}
 
+.owl-carousel .owl-label p{background-color: rgba(0, 0, 0, 0.2);position: relative; top:-9px;}
+.block-heigh{height: 300px;}
 
-
-
-
+.block-text .block-left{padding: 20px;}
 

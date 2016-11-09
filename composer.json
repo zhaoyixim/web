@@ -30,7 +30,7 @@
         "codeception/verify": "~0.3.1"
     },
     "config": {
-        "process-timeout": 1800
+        "process-timeout": 3000
     },
     "extra": {
         "asset-installer-paths": {
