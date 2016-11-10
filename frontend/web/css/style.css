@@ -13,11 +13,22 @@
 
 
 /*owl-carousel*/
+.row .padingside-no{padding-left: 0;padding-right: 0;}
+.row .padingright-9{padding-right: 9px;}
 .owl-carousel .item img.lazyOwl{padding: 9px;max-width: 100%; width: auto; height: auto;}
-.owl-carousel .owl-label{position: absolute;bottom: 0px;display: none;height: 30px;width:100%; padding: 9px;overflow: hidden;}
 
+
+.owl-carousel .owl-label{position: absolute;bottom: 0px;display: none;height: 30px;width:100%; padding: 9px;overflow: hidden;}
 .owl-carousel .owl-label p{background-color: rgba(0, 0, 0, 0.2);position: relative; top:-9px;}
 .block-heigh{height: 300px;}
+.block-text{margin-top: 5px}
+.block-text .col-text-wrap{cursor: pointer}
+.block-text .col-lg-3,.block-text .col-lg-9{padding-left: 8px;}
+.block-text .block-left{border: solid 1px #cccccc;}
+.block-text .block-left:hover{box-shadow: 5px 5px 5px #ccc;}
+.block-text .block-left p{min-height: 120px;}
+@media screen and (max-width: 970px){
 
-.block-text .block-left{padding: 20px;}
+    .row .padingright-9{padding-right:15px;margin-top: 5px}
 
+}
